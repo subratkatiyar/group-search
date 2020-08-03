@@ -1,4 +1,4 @@
-# group-seacrh
+# Group-Seacrh
 This is a group based search designed on python, which allows for searching in groups instead of a particular key term.
 
 ## When do I use it??
@@ -30,3 +30,7 @@ The code can be run by simply running the main_search(RUN ME).py file.
 >* Category Search :- Main use case scenario is when you want to search for every file with the same extension or from a group of predefined extensions.The predefined extensions can be chnaged in the category-complete folder.\
 >* Normal Search :- It can be used when we know the exact file name, if the directory is already indexed the search is generally completed within few seconds.
 >* Usual Search :- (Work in Progress) It will provide the same flexibility as windows search provide.
+
+## Limited User Base.
+* [gaganyadav80](https://github.com/gaganyadav80)
+* Hopefully someone else.
