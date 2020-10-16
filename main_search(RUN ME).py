@@ -40,17 +40,17 @@ def options():
 #yet to add a usual search.
         else:
             os.system('cls')
-            print("How Hard It Is To Select A Correct Option.")
+            print("How Hard Is It To Select A Correct Option.")
             options()
     elif choice_1 == 2:
         normal_search()
     else:
         os.system('cls')
-        print("How Hard It Is To Select A Correct Option.")
+        print("How Hard Is It To Select A Correct Option.")
         options()
 
 
-print("Do you want to index your drive.")
+print("Do you want to index your drive?")
 print("1.Yes")
 print("2.No")
 def index_toggle_confirmation():
