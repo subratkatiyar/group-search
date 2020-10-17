@@ -2,8 +2,7 @@ import os
 import json
 
 def search():
-    print("Enter the drive character. eg. S,P,C")
-    drive_letter = input()
+    drive_letter = input("Enter the drive character. eg. S,P,C:")
     path = drive_letter.upper() + ":\\" #change to your directory.
     temp_1 = open("temp.txt",'w',encoding="utf-8")
     for f in os.walk(path):

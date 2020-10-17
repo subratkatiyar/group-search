@@ -8,9 +8,9 @@ This is what the code can do.\
 :white_check_mark:2. can also be used for such a large group of extensions at once, these extensions are pre defined in various categories in categories complete folder.\
 :x:3. Normal search (like a normal windows search).....(Still in development).
 
-## How the code works?? 
+## How does the code work??
 The search is done by indexing a complete directory, and storing the results in a dictionary. The dictionary file is dumped in a .json file (Not the best way, but I am working on it.) The indexing usually takes 4-5 mins, but is dependent on the size and the number of files present in directory. As of right now we can only index and search on any single partition of harddisk, searching on a different partition will require to reindex and the old index is lost. That said, you can save different copies of this code for diiferent partitions. 
-## How to run the code??
+## How do I run the code??
 The code can be run by simply running the main_search(RUN ME).py file.
 > ### Dependencies used. (It should all preinstalled, just for good measures)
 >- import pprint (pip install pprint.)
@@ -20,7 +20,7 @@ The code can be run by simply running the main_search(RUN ME).py file.
 >- import os (OS is python's standard library, so no need to install)
 >- import time (time is python's standard library, so no need to insatll)
 
-## Various Parts of Program
+## Various Parts of Program:
 - ### The code shows when the last time the drive was indexed and also provides with an option to reindex.
 ![image of command prompt](https://drive.google.com/uc?export=view&id=1xMpLrFeFifir5CBtscdCkbF_zwJUnNmY)
 >* Indexing :- It takes some time, it basically creates a dictionary of any particular partition. Runtime is usually dependent on the number of files and also the used space of the partiton. More space used, more time spent on indeixng. (It took me 2 mins to index 542 GB files.) 
