@@ -1,4 +1,4 @@
-# Group-Seacrh
+# Group-Search
 This is a group based search designed on python, which allows for searching in groups instead of a particular key term.
 
 ## When do I use it??
